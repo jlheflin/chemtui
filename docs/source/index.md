@@ -1,5 +1,3 @@
-\\\mainpage
-
-# Project
+# Project {#mainpage}
 
 ## Test
