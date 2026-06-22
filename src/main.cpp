@@ -16,6 +16,5 @@ int main(int argc, char* argv[]) {
   cell.bold = true;
 
   screen.Print();
-
   return 0;
 }

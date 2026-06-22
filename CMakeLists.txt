@@ -8,6 +8,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 find_package(spdlog CONFIG REQUIRED)
+find_package(ftxui CONFIG REQUIRED)
 
 FetchContent_Declare(ftxui
   GIT_REPOSITORY https://github.com/ArthurSonzogni/ftxui
@@ -20,5 +21,5 @@ add_executable(chemtui src/main.cpp)
 
 target_link_libraries(chemtui PRIVATE
   spdlog::spdlog
-  ftxui::ftxui
+  ftxui::ftxui  
 )
