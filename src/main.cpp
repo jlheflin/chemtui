@@ -1,5 +1,7 @@
 #include <spdlog/spdlog.h>
+#include <ftxui/ftxui.hpp>
 
 int main(int argc, char* argv[]) {
-  spdlog::info("Hello world!");
+  ftxui::App app = ftxui::App::Fullscreen();
+  return 0;
 }
